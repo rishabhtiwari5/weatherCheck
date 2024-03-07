@@ -3,7 +3,7 @@
        const searchBtn = document.querySelector(".search button");
        const weatherIcon = document.querySelector(".weather-icon")
         
-       const apiKey = "3b89d225edd45eb2370f8bd6561f021f";
+       const apiKey = "";
        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
         
        async function checkWeather(city){
